@@ -5,6 +5,15 @@ body {
     background-color: #ADEBDE;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    font-family: "Amatic SC"
+}
+
 section,
 footer {
     margin: 80px 0 100px;
@@ -46,7 +55,8 @@ i:hover {
 
 ul {
     font-size: 30px;
-    text-align: justify;
+    text-align: left;
+    padding: 10;
     list-style: circle;
     line-height: 60px;
     font-family: "Amatic SC"
@@ -83,6 +93,73 @@ ul {
     height: 90vh;
     max-width: 5px;
     margin: 20px auto;
+}
+
+.resume-download {
+    color: #fd4507;
+    position: relative;
+    white-space: nowrap;
+}
+
+.resume-download:hover {
+    color: #fd4507;
+}
+
+.resume-download:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #fd4507;
+    transition: all 0.3s ease-in-out;
+}
+
+.resume-download:hover:after {
+    right: 50%;
+    left: 50%;
+}
+
+.project {
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+    font-family: "Amatic SC"
+}
+
+.project-link {
+    transition: all 0.2s ease-in-out;
+}
+
+a.project-link {
+    font-weight: bolder;
+    font-size: 35px;
+    position: relative;
+}
+
+a.project-link:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+a.project-link:hover:after {
+    right: 50%;
+    left: 50%;
+    background-color: #fd4507;
+}
+
+a.project-link:hover {
+    color: #fd4507;
+    letter-spacing: 2px;
 }
 
 .footer {
@@ -125,14 +202,22 @@ ul {
         font-size: 32px;
     }
 
-    ul {
-        font-size: : 15px;
-        margin-top: 10px;
-    }
-
     .header-inner img {
         width: 20vw;
         border-radius: 50%;
+    }
+
+    .header-inner h1 {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    .project {
+        text-align: center;
+    }
+
+    a.project-link {
+        font-size: 20px;
     }
 
     .mobile {
