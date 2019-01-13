@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+    background-image: linear-gradient(#FED792, #ADEBDE);
+    background-color: #ADEBDE;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    font-family: "Amatic SC"
+}
+
+section,
+footer {
+    margin: 80px 0 100px;
+}
+
+footer {
+    margin-bottom: 40px;
+}
+
+h2,
+h3 {
+    color: #fd4507;
+    font-size: 30px;
+    font-family: "Amatic SC"
+}
+
+h3 {
+    font-size: 50px;
+}
+
+p {
+    text-align: justify;
+    font-size: 30px;
+    font-family: "Amatic SC"
+}
+
+i {
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 40px;
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+i:hover {
+    background-color: #fd4507;
+}
+
+.header {
+	width: 100%;
+    margin-top: 30px;
+}
+
+.header-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+}
+
+.line {
+    background-color: #FFEEF1;
+}
+
+.line.horizontal {
+    height: 1px;
+    max-width: 90%;
+    margin: 20px auto 20px;
+}
+
+.line.horizontal.bottom {
+    margin-top: 0;
+}
+
+
+.line.vertical {
+    height: 90vh;
+    max-width: 5px;
+    margin: 20px auto;
+}
+
+.resume-download {
+    color: #fd4507;
+    position: relative;
+    white-space: nowrap;
+}
+
+.resume-download:hover {
+    color: #fd4507;
+}
+
+.resume-download:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #fd4507;
+    transition: all 0.3s ease-in-out;
+}
+
+.resume-download:hover:after {
+    right: 50%;
+    left: 50%;
+}
+
+.project {
+    font-size: 24px;
+    text-align: left;
+    padding: 0;
+    list-style: none;
+    line-height: 60px;
+    font-family: "Amatic SC"
+}
+
+.project-link {
+    transition: all 0.2s ease-in-out;
+}
+
+a.project-link {
+    font-weight: bolder;
+    font-size: 35px;
+    position: relative;
+}
+
+a.project-link:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+a.project-link:hover:after {
+    right: 50%;
+    left: 50%;
+    background-color: #fd4507;
+}
+
+a.project-link:hover {
+    color: #fd4507;
+    letter-spacing: 2px;
+}
+
+.footer {
+    text-align: left;
+}
+.fa-envelope{
+    color: #FFEEF1;
+}
+
+.fa-facebook-square{
+    color: #FFEEF1;
+}
+
+.fa-instagram{
+    color: #FFEEF1;
+}
+
+@media screen and (max-width: 900px) {
+    section,
+    footer {
+        margin: 40px 0 10px;
+    }
+
+    h2 {
+        font-size: 17px;
+        margin-left: 15px;
+    }
+
+    h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    i {
+        font-size: 32px;
+    }
+
+    .header-inner img {
+        width: 20vw;
+        border-radius: 50%;
+    }
+
+    .header-inner h1 {
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    .project {
+        text-align: center;
+    }
+
+    a.project-link {
+        font-size: 20px;
+    }
+
+    .mobile {
+        box-sizing: unset;
+        margin: auto;
+    }
+}
