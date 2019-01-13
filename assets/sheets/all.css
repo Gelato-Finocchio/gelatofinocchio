@@ -202,6 +202,11 @@ a.project-link:hover {
         font-size: 32px;
     }
 
+    li {
+        font-size: : 22px;
+        margin-top: 10px;
+    }
+
     .header-inner img {
         width: 20vw;
         border-radius: 50%;
