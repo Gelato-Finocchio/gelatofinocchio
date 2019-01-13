@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 body {
-    background-image: linear-gradient(#FED792, #ADEBDE);
+    background-image: linear-gradient(rgb(214, 225, 186), #ADEBDE);
     background-color: #ADEBDE;
 }
 
@@ -56,7 +56,7 @@ i:hover {
 ul {
     font-size: 30px;
     text-align: left;
-    padding: 10;
+    padding-right: 17px;
     list-style: circle;
     line-height: 60px;
     font-family: "Amatic SC"
@@ -110,7 +110,7 @@ ul {
     color: #FFEEF1;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     section,
     footer {
         margin: 40px 0 10px;
@@ -133,6 +133,10 @@ ul {
 
     i {
         font-size: 32px;
+    }
+
+    li {
+        font-size: 15px;
     }
 
     .header-inner img {
