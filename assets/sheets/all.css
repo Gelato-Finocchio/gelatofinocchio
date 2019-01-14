@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 body {
-    background-image: linear-gradient(#ADEBDE, rgb(214, 225, 186), #ADEBDE);
+    background-image: radial-gradient(80% 50%,rgb(214, 225, 186), #ADEBDE);
     background-color: #ADEBDE;
 }
 
