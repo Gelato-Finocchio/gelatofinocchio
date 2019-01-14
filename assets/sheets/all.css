@@ -25,7 +25,7 @@ footer {
 
 h2,
 h3 {
-    color: #fd4507;
+    color: #FFBD47;
     font-size: 30px;
     font-family: "Amatic SC"
 }
@@ -50,7 +50,8 @@ i {
 }
 
 i:hover {
-    background-color: #fd4507;
+    background-color: #FED792;
+    color: (206 226 193);
 }
 
 ul {
