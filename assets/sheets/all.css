@@ -11,9 +11,6 @@ a:hover {
 
 a {
     color: #A46D1A;
-    font-size:30px;
-    font-weight: bolder;
-    text-shadow: 1px 1px rgba(0, 0, 0, 40%);
     font-family: "Amatic SC";
 }
 
@@ -100,6 +97,71 @@ ul {
     height: 90vh;
     max-width: 5px;
     margin: 20px auto;
+}
+
+.wpp {
+    transition: all 0.2s ease-in-out;
+}
+
+a.wpp {
+    font-size:30px;
+    font-weight: bolder;
+    position: relative;
+}
+
+a.wpp:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #A46D1A;
+    transition: all 0.3s ease-in-out;
+}
+
+a.wpp:hover:after {
+    right: 50%;
+    left: 50%;
+    text-shadow: 1px 1px rgba(0, 0, 0, 40%);
+    background-color: #FFA606;
+}
+
+a.wpp:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, 40%);
+    color: #FFA606;
+}
+
+p.destaque{
+    font-weight: bolder;
+}
+
+.carpigiani {
+    color: #FFA606;
+    position: relative;
+    white-space: nowrap;
+}
+
+.carpigiani:hover {
+    text-shadow: 1px 1px rgba(0, 0, 0, 40%);
+    color: #FFA606;
+}
+
+.carpigiani:after {
+    content: " ";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #FFA606;
+    transition: all 0.3s ease-in-out;
+}
+
+.carpigiani:hover:after {
+    text-shadow: 1px 1px rgba(0, 0, 0, 40%);
+    right: 50%;
+    left: 50%;
 }
 
 .footer {
