@@ -10,8 +10,11 @@ a:hover {
 }
 
 a {
-    color: black;
-    font-family: "Amatic SC"
+    color: #A46D1A;
+    font-size:30px;
+    font-weight: bolder;
+    text-shadow: 1px 1px rgba(0, 0, 0, 40%);
+    font-family: "Amatic SC";
 }
 
 section,
@@ -39,7 +42,7 @@ h3 {
 p {
     text-align: justify;
     font-size: 30px;
-    font-family: "Amatic SC"
+    font-family: "Amatic SC";
 }
 
 i {
