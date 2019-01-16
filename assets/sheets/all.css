@@ -146,6 +146,14 @@ ul {
         font-size: 15px;
     }
 
+    a {
+        color: #A46D1A;
+        font-size:15px;
+        font-weight: bolder;
+        text-shadow: 1px 1px rgba(0, 0, 0, 40%);
+        font-family: "Amatic SC";
+    }
+
     .header-inner img {
         width: 35vw;
         border-radius: 50%;
