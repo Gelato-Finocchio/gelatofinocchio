@@ -193,6 +193,7 @@ p.destaque{
     h3 {
         font-size: 22px;
         text-align: center;
+        text-shadow: none;
     }
 
     p {
