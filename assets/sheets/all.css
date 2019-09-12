@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 body {
-    background-image: radial-gradient(80% 50%,rgb(214, 225, 186), #ADEBDE);
-    background-color: #ADEBDE;
+    background-image: radial-gradient(80% 50%,#EECE93, #B4D3CA);
+    background-color: #B4D3CA;
 }
 
 a:hover {
@@ -25,7 +25,7 @@ footer {
 
 h2,
 h3 {
-    color: #FFA606;
+    color: #E3B16F;
     font-size: 30px;
     font-family: "Amatic SC";
 }
