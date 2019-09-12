@@ -26,19 +26,19 @@ footer {
 h2,
 h3 {
     color: #D89C43;
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Montserrat";
 }
 
 h3 {
     text-shadow: 1px 1px rgba(0, 0, 0, 40%);
     font-weight: 1000;
-    font-size: 50px;
+    font-size: 47px;
 }
 
 p {
     text-align: justify;
-    font-size: 30px;
+    font-size: 27px;
     font-family: "Montserrat";
 }
 
@@ -46,7 +46,7 @@ i {
     padding: 5px;
     border-radius: 5px;
     color: black;
-    font-size: 40px;
+    font-size: 37px;
     margin: 10px;
     transition: all 0.2s ease-in-out;
 }
@@ -56,7 +56,7 @@ i:hover {
 }
 
 ul {
-    font-size: 30px;
+    font-size: 27px;
     text-align: left;
     padding-right: 17px;
     list-style: circle;
@@ -99,12 +99,13 @@ ul {
     margin: 20px auto;
 }
 
+
 .wpp {
     transition: all 0.2s ease-in-out;
 }
 
 a.wpp {
-    font-size:30px;
+    font-size:27px;
     font-weight: bolder;
     position: relative;
 }
@@ -186,7 +187,7 @@ p.destaque{
     }
 
     h2 {
-        font-size: 17px;
+        font-size: 14px;
         margin-left: 15px;
     }
 
@@ -197,16 +198,16 @@ p.destaque{
     }
 
     p {
-        font-size: 15px;
+        font-size: 12px;
         margin-top: 10px;
     }
 
     i {
-        font-size: 32px;
+        font-size: 29px;
     }
 
     li {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     a {
@@ -216,11 +217,11 @@ p.destaque{
     }
 
     a.wpp {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     a.carpigiani {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .header-inner img {
