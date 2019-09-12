@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
 
 body {
     background-image: radial-gradient(80% 50%,#EECE93, #B4D3CA);
@@ -10,8 +10,8 @@ a:hover {
 }
 
 a {
-    color: #A46D1A;
-    font-family: "Amatic SC";
+    color: #9E6A1D;
+    font-family: "Montserrat";
 }
 
 section,
@@ -25,9 +25,9 @@ footer {
 
 h2,
 h3 {
-    color: #E3B16F;
+    color: #D89C43;
     font-size: 30px;
-    font-family: "Amatic SC";
+    font-family: "Montserrat";
 }
 
 h3 {
@@ -39,7 +39,7 @@ h3 {
 p {
     text-align: justify;
     font-size: 30px;
-    font-family: "Amatic SC";
+    font-family: "Montserrat";
 }
 
 i {
@@ -52,7 +52,7 @@ i {
 }
 
 i:hover {
-    background-color: #FED792;
+    background-color: #EECE93;
 }
 
 ul {
@@ -61,7 +61,7 @@ ul {
     padding-right: 17px;
     list-style: circle;
     line-height: 60px;
-    font-family: "Amatic SC";
+    font-family: "Montserrat";
 }
 
 .header {
@@ -79,7 +79,7 @@ ul {
 }
 
 .line {
-    background-color: #FFEEF1;
+    background-color: #F6EAEE;
 }
 
 .line.horizontal {
@@ -116,7 +116,7 @@ a.wpp:after {
     left: 0;
     bottom: 0;
     height: 2px;
-    background-color: #A46D1A;
+    background-color: #9E6A1D;
     transition: all 0.3s ease-in-out;
 }
 
@@ -124,12 +124,12 @@ a.wpp:hover:after {
     right: 50%;
     left: 50%;
     text-shadow: 1px 1px rgba(0, 0, 0, 40%);
-    background-color: #FFA606;
+    background-color: #E3B16F;
 }
 
 a.wpp:hover {
     text-shadow: 1px 1px rgba(0, 0, 0, 40%);
-    color: #FFA606;
+    color: #E3B16F;
 }
 
 p.destaque{
@@ -137,14 +137,14 @@ p.destaque{
 }
 
 .carpigiani {
-    color: #FFA606;
+    color: #E3B16F;
     position: relative;
     white-space: nowrap;
 }
 
 .carpigiani:hover {
     text-shadow: 1px 1px rgba(0, 0, 0, 40%);
-    color: #FFA606;
+    color: #E3B16F;
 }
 
 .carpigiani:after {
@@ -154,7 +154,7 @@ p.destaque{
     left: 0;
     bottom: 0;
     height: 2px;
-    background-color: #FFA606;
+    background-color: #D89C43;
     transition: all 0.3s ease-in-out;
 }
 
@@ -168,15 +168,15 @@ p.destaque{
     text-align: left;
 }
 .fa-envelope{
-    color: #FFEEF1;
+    color: #F6EAEE;
 }
 
 .fa-facebook-square{
-    color: #FFEEF1;
+    color: #F6EAEE;
 }
 
 .fa-instagram{
-    color: #FFEEF1;
+    color: #F6EAEE;
 }
 
 @media screen and (max-width: 1100px) {
@@ -210,9 +210,9 @@ p.destaque{
     }
 
     a {
-        color: #A46D1A;
+        color: #9E6A1D;
         font-size:15px;
-        font-family: "Amatic SC";
+        font-family: "Montserrat";
     }
 
     a.wpp {
