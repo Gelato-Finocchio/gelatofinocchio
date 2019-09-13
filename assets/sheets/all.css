@@ -41,6 +41,11 @@ p {
     font-size: 27px;
     font-family: "Montserrat";
 }
+b {
+    text-align: justify;
+    font-size: 27px;
+    font-family: "Montserrat";
+}
 
 i {
     padding: 5px;
@@ -137,6 +142,11 @@ p.destaque{
     font-weight: bolder;
 }
 
+p.subtitulo{
+    color: #D89C43;
+    font-weight: bolder;
+}
+
 .carpigiani {
     color: #E3B16F;
     position: relative;
@@ -167,6 +177,9 @@ p.destaque{
 
 .footer {
     text-align: left;
+}
+.fa-whatsapp-square{
+    color: #E3B16F;
 }
 .fa-envelope{
     color: #F6EAEE;
